@@ -1,0 +1,26 @@
+version: 1
+values:
+- id: keyset-pagination
+  description: Cursor or seek-based pagination.
+- id: offset-pagination
+  description: Offset and limit pagination.
+- id: repository
+  description: Repository abstraction pattern.
+- id: strategy
+  description: Strategy pattern.
+- id: adapter
+  description: Adapter pattern.
+- id: factory
+  description: Factory pattern.
+- id: solid
+  description: SOLID object-oriented design principles.
+- id: dependency-injection
+  description: Supplying collaborators from outside an object.
+- id: factory-method
+  description: Delegated object creation.
+- id: builder
+  description: Stepwise construction of complex objects.
+- id: decorator
+  description: Composable behavior added around an object.
+- id: observer
+  description: One-to-many notification of events or state changes.

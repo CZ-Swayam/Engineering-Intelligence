@@ -1,0 +1,20 @@
+id: spring-boot
+version: 0.1.0
+language: java
+framework: spring-boot
+runtime:
+  java: ">=17"
+  spring-boot: ">=3.2"
+dependencies:
+  - org.springframework.boot:spring-boot-starter-data-jpa
+supported_capabilities:
+  - pagination
+  - offset-pagination
+databases:
+  - database-agnostic
+distribution:
+  - source
+maturity: beta
+tested: false
+notes:
+  - Spring Data Pageable example; keyset pagination requires a dedicated query implementation.

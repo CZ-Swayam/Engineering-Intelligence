@@ -1,0 +1,38 @@
+id: backend.pagination
+name: Pagination
+description: Reusable pagination patterns and implementation examples for application APIs.
+domain: backend
+layers:
+  - application
+  - presentation
+tags:
+  - pagination
+  - api
+  - large-datasets
+patterns:
+  - offset-pagination
+  - keyset-pagination
+capabilities:
+  - pagination
+  - offset-pagination
+  - cursor-pagination
+databases:
+  - database-agnostic
+implementations:
+  - id: django-rest-framework
+    language: python
+    framework: django-rest-framework
+    path: python/django-rest-framework
+    manifest: python/django-rest-framework/manifest.yaml
+    distribution:
+      - source
+  - id: spring-boot
+    language: java
+    framework: spring-boot
+    path: java/spring-boot
+    manifest: java/spring-boot/manifest.yaml
+    distribution:
+      - source
+maturity: beta
+related_knowledge:
+  - database.keyset-pagination

@@ -1,0 +1,16 @@
+version: 1
+values:
+  - id: pagination
+    description: Paginated retrieval of records.
+  - id: cursor-pagination
+    description: Cursor-based pagination.
+  - id: offset-pagination
+    description: Offset-based pagination.
+  - id: filtering
+    description: Filtering collections or records.
+  - id: sorting
+    description: Sorting collections or records.
+  - id: validation
+    description: Input or data validation.
+  - id: observability
+    description: Logging, metrics and tracing.

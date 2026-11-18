@@ -1,0 +1,14 @@
+version: 1
+values:
+  - id: postgresql
+    description: PostgreSQL.
+  - id: mysql
+    description: MySQL.
+  - id: sql-server
+    description: Microsoft SQL Server.
+  - id: azure-synapse
+    description: Azure Synapse Analytics.
+  - id: sqlite
+    description: SQLite.
+  - id: database-agnostic
+    description: No database-specific behavior.

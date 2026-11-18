@@ -1,0 +1,12 @@
+version: 1
+values:
+  - id: presentation
+    description: User interface and API boundary.
+  - id: application
+    description: Use cases and application orchestration.
+  - id: domain
+    description: Core business rules and domain model.
+  - id: infrastructure
+    description: Persistence, messaging and external integrations.
+  - id: cross-cutting
+    description: Concerns spanning multiple architectural layers.

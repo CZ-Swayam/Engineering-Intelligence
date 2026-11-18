@@ -1,0 +1,10 @@
+version: 1
+values:
+  - id: source
+    description: Source files integrated or adapted into a consuming project.
+  - id: pypi
+    description: Python package distribution.
+  - id: maven
+    description: Maven artifact distribution.
+  - id: npm
+    description: npm package distribution.

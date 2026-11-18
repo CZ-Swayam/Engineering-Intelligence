@@ -1,0 +1,14 @@
+version: 1
+values:
+  - id: python
+    description: Python programming language.
+  - id: java
+    description: Java programming language.
+  - id: typescript
+    description: TypeScript programming language.
+  - id: javascript
+    description: JavaScript programming language.
+  - id: sql
+    description: SQL.
+  - id: language-agnostic
+    description: Not tied to a specific programming language.

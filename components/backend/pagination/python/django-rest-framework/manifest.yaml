@@ -1,0 +1,23 @@
+id: django-rest-framework
+version: 0.1.0
+language: python
+framework: django-rest-framework
+runtime:
+  python: ">=3.10"
+  django: ">=4.2"
+  djangorestframework: ">=3.14"
+dependencies:
+  - Django
+  - djangorestframework
+supported_capabilities:
+  - pagination
+  - offset-pagination
+  - cursor-pagination
+databases:
+  - database-agnostic
+distribution:
+  - source
+maturity: beta
+tested: false
+notes:
+  - Reference integration; adapt ordering and settings to the consuming project.

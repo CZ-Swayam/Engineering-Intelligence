@@ -1,0 +1,14 @@
+version: 1
+values:
+  - id: django-rest-framework
+    description: Django REST Framework.
+  - id: django
+    description: Django.
+  - id: spring-boot
+    description: Spring Boot.
+  - id: angular
+    description: Angular.
+  - id: fastapi
+    description: FastAPI.
+  - id: none
+    description: No framework dependency.

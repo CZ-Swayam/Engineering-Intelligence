@@ -1,0 +1,10 @@
+version: 1
+values:
+  - id: experimental
+    description: Early exploration; interfaces may change.
+  - id: beta
+    description: Usable but still undergoing validation.
+  - id: stable
+    description: Tested and suitable for general use.
+  - id: deprecated
+    description: Retained for migration purposes; avoid new adoption.

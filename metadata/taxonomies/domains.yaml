@@ -1,0 +1,18 @@
+version: 1
+values:
+  - id: backend
+    description: Server-side application logic and services.
+  - id: frontend
+    description: User-facing web, desktop and mobile application logic.
+  - id: database
+    description: Data storage, querying, modeling and database operations.
+  - id: security
+    description: Application and infrastructure security.
+  - id: devops
+    description: Build, deployment, infrastructure and operations.
+  - id: testing
+    description: Testing strategies, tooling and quality engineering.
+  - id: architecture
+    description: System design and architectural patterns.
+  - id: general
+    description: Cross-cutting engineering knowledge.
